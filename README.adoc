@@ -31,7 +31,7 @@ toc::[]
 
 == Installation
 
-In this demo, ApiMan & Keycloak are used to secure the Camel REST endpoints created within the REST DSL in Action demo.
+In this demo, ApiMan & Keycloak are used to secure the Camel REST endpoints created within the https://github.com/FuseByExample/rest-dsl-in-action/blob/master/readme.adoc[REST DSL in Action demo].
 In particular,  incoming HTTP requests will be authenticated and authorization will be granted based on the role of the authenticated user.
 
 An overview of the installation instructions for APIMan are as follows:
