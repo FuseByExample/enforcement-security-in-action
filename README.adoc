@@ -14,7 +14,10 @@ toc::[]
 
 = Goals
 
-* Secure RESTful endpoints using `APIMan` and `Keycloak` according to different scenario : basic authentication, Oauth2 and Oauth2 & roles.
+* Secure RESTful endpoints using `APIMan` and `Keycloak` according to different scenario : 
+** Basic authentication
+** Using Json Web Token & Oauth2
+** Combine Oauth2 & roles
 
 == Prerequisites
 
