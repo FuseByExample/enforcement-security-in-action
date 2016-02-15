@@ -14,7 +14,7 @@ toc::[]
 
 = Goals
 
-* Secure RESTful endpoints using `APIMan` and `Keycloak` according to different scenario : 
+* Secure RESTful endpoints exposed by the Apache Camel routes using `APIMan` and `Keycloak` according to different scenario : 
 ** Pass through
 ** Basic authentication
 ** Using Json Web Token & Oauth2
