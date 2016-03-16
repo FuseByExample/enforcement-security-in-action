@@ -49,11 +49,11 @@ The following are specific commands that can be used to install APIMan:
 ----
 mkdir ~/apiman-1.2.2.Final
 cd ~/apiman-1.2.2.Final
-curl http://download.jboss.org/wildfly/10.0.0.Final/wildfly-10.0.0.Final.zip -o wildfly-10.0.0.Final.zip
-curl http://downloads.jboss.org/apiman/1.2.2.Final/apiman-distro-wildfly10-1.2.2.Final-overlay.zip -o apiman-distro-wildfly10-1.2.2.Final-overlay.zip
-unzip wildfly-10.0.0.Final.zip
-unzip -o apiman-distro-wildfly10-1.2.2.Final-overlay.zip -d wildfly-10.0.0.Final
-cd wildfly-10.0.0.Final
+curl http://download.jboss.org/wildfly/9.0.2.Final/wildfly-9.0.2.Final.zip -o wildfly-9.0.2.Final.zip
+curl http://downloads.jboss.org/apiman/1.2.2.Final/apiman-distro-wildfly9-1.2.2.Final-overlay.zip -o apiman-distro-wildfly9-1.2.2.Final-overlay.zip
+unzip wildfly-9.0.2.Final.zip
+unzip -o apiman-distro-wildfly9-1.2.2.Final-overlay.zip -d wildfly-9.0.2.Final
+cd wildfly-9.0.2.Final
 ./bin/standalone.sh -c standalone-apiman.xml
 ----
 ====
