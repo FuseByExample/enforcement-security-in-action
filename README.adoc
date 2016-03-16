@@ -91,9 +91,9 @@ The first use case that we will deal with is very simple and can be compared to 
 and then forwarded to the real endpoint exposing the REST service. To design it, we will create a service, specify the address of the service and publish the service in order to let APiMan Gateway to
 accept the HTTP requests.
 
-. In the `Services` screen of the `Fuse` organization, click the button: `New Service`.
-. Within `New Service` screen, add `blog-service` as Service Name and provide a `description` to mention that this service
-  is not secured "Insecure service. No authentication will be required to access the service". When done, click on the Create Service` button
+. In the `Apis` screen of the `Fuse` organization, click the button: `New Api`.
+. Within `New Api` screen, add `blog-service` as Service Name and provide a `description` to mention that this service
+  is not secured "Insecure service. No authentication will be required to access the service". When done, click on the `Create Api` button
 +
 image::images/apiman-fuse-organisation-addservice.png[]
 +
