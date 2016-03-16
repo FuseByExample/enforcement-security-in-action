@@ -5,8 +5,8 @@
 :numbered:
 :httpie: link:https://github.com/jkbrzt/httpie[httpie]
 :curl: link:http://curl.haxx.se/download.html[curl]
-:wildfly: link:http://download.jboss.org/wildfly/8.2.0.Final/wildfly-8.2.0.Final.zip[Wildfly]
-:apiman: link:http://downloads.jboss.org/apiman/1.1.7.Final/apiman-distro-wildfly8-1.1.7.Final-overlay.zip[APIMan]
+:wildfly: link:http://download.jboss.org/wildfly/9.0.2.Final/wildfly-9.0.2.Final.zip[Wildfly]
+:apiman: link:http://downloads.jboss.org/apiman/1.2.2.Final/apiman-distro-wildfly9-1.2.2.Final-overlay.zip[APIMan]
 :endpointURL: http://localhost:8183/camel-rest
 
 = Enforcement Security in Action
