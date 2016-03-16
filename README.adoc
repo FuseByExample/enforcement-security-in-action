@@ -83,7 +83,7 @@ image::images/apiman-fuse-organisation.png[]
 +
 NOTE: As we will not define different SLA (e.g. quotas, ...) to manage the service, No http://www.apiman.io/latest/user-guide.html=_plans[plan] will be defined for the demo
 +
-image::images/apiman-fuse-organisation-service.png[]
+image::images/apiman-fuse-organisation-api.png[]
 
 === Use case - Direct forward
 
