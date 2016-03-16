@@ -79,7 +79,7 @@ image::images/apiman-organization.png[]
 +
 image::images/apiman-fuse-organisation.png[]
 +
-. Click on the `Services` Tab of the `Fuse` organization to register the first REST Service to be secured.
+. Click on the `Apis` Tab of the `Fuse` organization to register the first REST Service to be secured.
 +
 NOTE: As we will not define different SLA (e.g. quotas, ...) to manage the service, No http://www.apiman.io/latest/user-guide.html=_plans[plan] will be defined for the demo
 +
