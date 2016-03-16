@@ -26,7 +26,7 @@ toc::[]
 - http://www.jboss.org/download-manager/file/jboss-fuse-6.2.0.GA-full_zip.zip[JBoss Fuse 6.2.GA]
 - http://www.jboss.org/download-manager/file/jboss-devstudio-8.1.0.GA-standalone_jar.jar[JBoss Developer Studio]
 - {httpie} or {curl}
-- http://www.apiman.io/latest/download.html[Apiman 1.2.1.Final]
+- http://www.apiman.io/latest/download.html[Apiman 1.2.2]
 - JDK 1.7 or 1.8
 - Apache Maven 3.2.3
 
