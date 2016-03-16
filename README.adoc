@@ -95,7 +95,7 @@ accept the HTTP requests.
 . Within `New Api` screen, add `blog-service` as Service Name and provide a `description` to mention that this service
   is not secured "Insecure service. No authentication will be required to access the service". When done, click on the `Create Api` button
 +
-image::images/apiman-fuse-organisation-addservice.png[]
+image::images/apiman-fuse-organisation-addapi.png[]
 +
 . You will be redirected to the `blog-service`, version `1.0` screen where we will add the URL of the REST Service exposed by the Apache Camel REST DSL
   and specify that the service is http://www.apiman.io/latest/user-guide.html=_services[public].
