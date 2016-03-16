@@ -7,6 +7,7 @@
 :curl: link:http://curl.haxx.se/download.html[curl]
 :wildfly: link:http://download.jboss.org/wildfly/8.2.0.Final/wildfly-8.2.0.Final.zip[Wildfly]
 :apiman: link:http://downloads.jboss.org/apiman/1.1.7.Final/apiman-distro-wildfly8-1.1.7.Final-overlay.zip[APIMan]
+:endpointURL: http://localhost:8183/camel-rest
 
 = Enforcement Security in Action
 
@@ -101,7 +102,7 @@ image::images/apiman-fuse-organisation-addservice.png[]
 +
 image::images/apiman-blogservice.png[]
 +
-. Click on the `implementation` link and add the Api endpoint `http://localhost:9191/blog/article`, select `REST` from the `Api Type` dropdown box. The API endpoint corresponds to our REST Service path as defined within the REST DSL `blog/article`.
+. Click on the `implementation` link and add the Api endpoint `{endpointURL}/blog/article`, select `REST` from the `Api Type` dropdown box. The API endpoint corresponds to our REST Service path as defined within the REST DSL `blog/article`.
 . Click on the `Save` button
 +
 image::images/apiman-blogservice-api.png[]
