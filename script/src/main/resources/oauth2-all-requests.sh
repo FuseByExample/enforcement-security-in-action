@@ -5,11 +5,15 @@ USER=admin
 PASSWORD=admin
 CLIENT_ID=fuse
 HOST=localhost
+PROTOCOL=http
 PORT_HTTP=8080
 PORT_HTTPS=8443
 
-#auth_result=$(http --verify=no -f http://$HOST:$PORT_HTTP/auth/realms/$REALM/protocol/openid-connect/token username=$USER password=$PASSWORD grant_type=password client_id=$CLIENT_ID)
-auth_result=$(curl -X POST http://$HOST:$PORT_HTTP/auth/realms/$REALM/protocol/openid-connect/token -d grant_type=password -d username=$USER -d password=$PASSWORD -d grant_type=password -d client_id=$CLIENT_ID)
+#auth_result=$(http --verify=no --verbose -f http://$HOST:$PORT_HTTP/auth/realms/$REALM/protocol/openid-connect/token username=$USER password=$PASSWORD grant_type=password client_id=$CLIENT_ID)
+auth_result=$(curl -X POST $PROTOCOL://$HOST:$PORT_HTTP/auth/realms/$REALM/protocol/openid-connect/token -d grant_type=password -d username=$USER -d password=$PASSWORD -d grant_type=password -d client_id=$CLIENT_ID)
+
+#echo ">>> Auth Request"
+#echo $auth_result
 
 access_token=$(echo -e "$auth_result" | awk -F"," '{print $1}' | awk -F":" '{print $2}' | sed s/\"//g | tr -d ' ')
 
